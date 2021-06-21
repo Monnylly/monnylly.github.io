@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap%27);
-
+.cabecalho {
+    color: rgb(241, 237, 245);
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
 
 .meuNome {
     color: #f7f5fae0;
@@ -13,7 +18,7 @@ div.descricao {
     padding: 2%;
 
 }
-div.habilidades{
+div.habilidades {
     height: 380px;
     text-align: left;
     margin-top: 120px;
@@ -73,13 +78,12 @@ div.finalPagina{
     height: 50px;
     max-width: 90%;
     margin: 0 auto;
-    height: 90x;
     border-radius: 10px;
 }
-nav {
+/*nav {
     display: block;
     vertical-align: middle;
-}
+}*/
 ul{
     line-height: 30px;
     font-style: oblique;
@@ -91,10 +95,11 @@ ul{
 .principal li{ 
     line-height: 2.5;
     display: inline-block;
-    margin: 0 5%px;
+    margin: 0 50%px;
     font-size: 20px;
     vertical-align:middle;
-    text-align: justify;
+    text-align: center;
+    padding-left: 120px;
 }
 a {
     color: rgba(232, 236, 238, 0.877);
