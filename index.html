@@ -6,43 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Monnylly</title>
     <link rel="stylesheet" type= "text/css" href="style.css">
-    <style>
-        /*
-        h1, h2, h3 {
-            color: rgba(126, 128, 131, 0.795);
-            text-decoration: underline;
-            font-weight: 600;
-        }
-        h4 {
-            color: rgb(91, 91, 94);
-
-        }
-        body {
-            background-color: #041027f6;
-            color: rgba(162, 162, 165, 0.877);
-            font-family: fantasy;
-            text-align: center;          
-        }
-        .list-style{ 
-            line-height: 25px;           
-        }
-        .paragrafo_princ {
-            color: rgb(173, 173, 180);
-            font-size: 20px;
-            font-style: italic;
-
-        }
-        .section3{
-            line-height: 20px;
-        }
-        .picture{
-            border-radius: 50%;
-        }
-        .link {
-            color:rgb(240, 233, 233); 
-        }
-       */
-    </style>
+    
 </head>
 <body>
     <nav class="principal">
@@ -58,55 +22,65 @@
             </li>
 		</ul>
 	</nav>
+    <div class="descricao">
+        <h1 class="meuNome">Monnylly Negreiros S. Santos</h1>
 
-    <h1>Monnylly Negreiros S. Santos</h1>
-
-    
-    <img class="picture" src="euzinha.jpg" alt="mulher sorrindo" width=200px id="foto">
-    <section id="Sobre quem sou">   
-        <h2>Sobre quem sou</h2>  
-        <p class="paragrafo_princ"><strong>Estudante em transição de carreira</strong></p>
-        <p>Eu sou a Monnylly, tenho 37 anos, sou paraibana, mais moro no triângulo mineiro, Uberlândia- MG.</p>
-        
-        <p>Sou estudante de Desenvolvimento em Web na Trybe, muito animada com a área de programação e todo universo da tecnologia que tem evolução rápida e constante. <br>
-            
-        <p>Sou formada em Administração de empresas e finalizando um MBA em Gestão de Pessoas, tenho diversas experiências na área de atendimento e vendas, inclusive com produtos financeiros.</p>
-        <p>Gosto muito de desafios e me encontro agora em um processo de transição de carreira, muito motivada em estudar e me desenvolver dia após dia, <br> acredito que o processo é tão importante quanto o objetivo final, por isso dou valor a cada etapa.</p>
-        <p>Acredito que seja um grande desafio, mais estou animada e determinada a fazer da certo.</p>   
-        <p class="paragrafo_princ">Busco sempre me aperfeiçoar, e me desenvolver não só com estudos técnicos, mais também com minha estrutura comportamental, <br> e acredito nas relações de respeito as nossas emoções e as de outras pessoas,<br> o que faz muito sentido para termos mais harmonia, em todos os aspectos e áreas de nossa vida.</p>
-        
-        <p><h4>Espero ainda fazer diferença na vida de usuários que pretendo impactar com meu trabalho como Desenvolvedora.</h4></p>
-    </section>
-    <br>
-
-    <section id="Habilidades">
-    <h3>Habilidades</h3>
+        <div class="image-container">
+            <img class="picture" src="euzinha.jpg" alt="mulher sorrindo" width=200px id="foto">
+                
+            <h3 class="quemSou"id="Sobre quem sou">Sobre quem sou</h3>  
+            <p><strong>Estudante em transição de carreira</strong></p>
+            <p>Eu sou a Monnylly, tenho 37 anos, sou paraibana, mais moro no triângulo mineiro, Uberlândia- MG.</p>
+            <p>Sou estudante de Desenvolvimento em Web na Trybe, muito animada com a área de programação e todo universo da tecnologia que tem evolução rápida e constante. <br>
+                    
+            <p>Sou formada em Administração de empresas e finalizando um MBA em Gestão de Pessoas, tenho diversas experiências na área de atendimento e vendas, inclusive com produtos financeiros.</p>
+            <p>Gosto muito de desafios e me encontro agora em um processo de transição de carreira, muito motivada em estudar e me desenvolver dia após dia, <br> acredito que o processo é tão importante quanto o objetivo final, por isso dou valor a cada etapa.</p>
+            <p>Acredito que seja um grande desafio, mais estou animada e determinada a fazer da certo.</p>   
+           
+                
+            <p>Espero ainda fazer diferença na vida de usuários que pretendo impactar com meu trabalho como Desenvolvedora.</p>
+        </div>
+    </div>  
+   
+    <div class="habilidades" id="Habilidades">
+        <h3>Habilidades Comportamentais</h3>
         <ul class="list-style">
-            <strong>
-                <li>Comprometimento;</li>
-                <li>Comunicativa;</li>
-                <li>Resiliência profissional;</li>
-                <li>Colaboração e trabalho em equipe;</li>
-                <li>Pensamento crítico;</li>
-                <li>Equilibrio emocional;</li>
-                <li>Criatividade;</li>
-                <li>Aprendizado continuo;</li>
-                <li>Pensamento de dono;</li>
-                <li>Flexivel.</li>
-            </strong>
+            <li>Comprometimento;</li>
+            <li>Comunicativa;</li>
+            <li>Resiliência profissional;</li>
+            <li>Colaboração e trabalho em equipe;</li>
+            <li>Pensamento crítico;</li>
+            <li>Equilibrio emocional;</li>
+            <li>Criatividade;</li>
+            <li>Aprendizado continuo;</li>
+            <li>Pensamento de dono;</li>
+            <li>Flexivel.</li>
         </ul>
-    </section><h3>
-    <br>
-    <a href="#foto">Link Foto</a>
-    <br>
-    
-    <section id="Minha transição de carreira" class="section3">
-        <h3>Processo de transição de carreira</h3>
+    </div>
+    <div class="header">
+        <h3 class="hard-skills">Hard Skills</h3>
+        <ul class="hard-skills">
+            <li>Lógica de Programação;</li>
+            <li>HTML / CSS;</li>
+            <li>Java Script;</li>
+            <li>Python;</li>
+            <li>Banco de Dados/ MySQl;</li>
+            <li>Git /GitHub;</li>
+        </ul>
+    </div>
+      
+    <div id="Minha transição de carreira" class="finalPagina">
+        <div class="links">
+            <h4><strong>Processo de transição de carreira</strong></h4>
 
-        <p><strong> Quer saber mais sobre meu processo de transição de carreira?</strong></p>
-        <p>Acesse o link abaixo e confira mais detalhes:</p>
-        <a href="https://mudancadecarreira.monnylly.repl.co" target="_brank">Mudança de Carreira</a>
-    </section>
+            <h4><strong> Quer saber mais sobre meu processo de transição de carreira?</strong></h4>
+            <h4>Acesse o link abaixo e confira mais detalhes:</h4>
+            <a href="https://mudancadecarreira.monnylly.repl.co" target="_brank">Mudança de Carreira</a>
+            
+            <a href="#foto">Link Foto</a>
+        </div>
+    </div>
+
 
 </body>
 </html>

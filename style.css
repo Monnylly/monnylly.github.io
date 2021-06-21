@@ -1,61 +1,121 @@
-h1, h2, h3 {
-    color: rgba(184, 186, 189, 0.795);
-    text-decoration: underline;
-    font-weight: 600;
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap%27);
+
+
+.meuNome {
+    color: #f7f5fae0;
+    text-align: center;  
+    font-size: 35px;
 }
-h4 {
-    color: rgb(198, 198, 211);
+
+div.descricao {
+    color: white;
+    height: 400px;
+    padding: 2%;
 
 }
+div.habilidades{
+    height: 380px;
+    text-align: left;
+    margin-top: 120px;
+}
+
+div p{ 
+    margin-left: 250px;
+}
+
 body {
-    background: #1d2d44;
-    color: rgba(228, 228, 235, 0.877);
-    font-family: fantasy;
-    text-align: center;          
+    background: #011a3b;
+    color: white;
+    font-family: Roboto, sans-serif;   
+    padding: 2%;   
+    font-size: 18px;
 }
-.list-style{ 
-    line-height: 25px;           
-}
-.paragrafo_princ {
-    color: rgb(173, 173, 180);
-    font-size: 20px;
-    font-style: italic;
 
+.list-style{ 
+    line-height: 30px;   
+    margin-left: 50px;        
 }
-.section3{
+h3{
+    margin-left: 90px;
+    text-decoration: underline;
+}
+.quemSou{
+    margin-left: 250px;
+}
+div.finalPagina{
     line-height: 20px;
+    color: white;
+    background: rgba(2, 3, 39, 0.877);
+    border-radius: 10px;
+    text-align: center;  
+    font-size: 15px; 
+    height: 220px;
+    margin-top: 20px
 }
+
 .picture{
     border-radius: 50%;
-}
-.link {
-    color:rgb(240, 233, 233); 
-}
-.principal{
-    background: #872cb1;
-    height: 40px;
-    max-width: 70%;
-    margin: 0 auto;
+    float: left;
+    height: 280px;
+    padding: 10px;
+    background-color: rgba(129, 99, 92, 0.788);
+    margin-top: 40px;
 
+}
+.image-container {
+    height: 300px;
+    position: relative;
+    margin: 20px;
+}
+   
+.principal{
+    background: #28292ca1;
+    height: 50px;
+    max-width: 90%;
+    margin: 0 auto;
+    height: 90x;
+    border-radius: 10px;
 }
 nav {
     display: block;
-
+    vertical-align: middle;
 }
-ul {
-    list-style-type: none;
-    line-height: 2;
-    padding-left: 0%;
-    margin-bottom: 50px;
+ul{
+    line-height: 30px;
+    font-style: oblique;
+    font-weight: bolder;
+    text-align: left;
+    color: white;
+    margin-left: 25px;
 }
 .principal li{ 
     line-height: 2.5;
     display: inline-block;
-    margin: 0 89px;
+    margin: 0 5%px;
     font-size: 20px;
-    font-weight: 50px;
+    vertical-align:middle;
+    text-align: justify;
 }
 a {
-    color: rgb(158, 213, 245);
-
+    color: rgba(232, 236, 238, 0.877);
+    text-align: center;
+    padding: 100px;
+    font-size: 15px;
+}
+.header{
+    background-image: url('tecnologia.jpg');
+    background-size: cover;
+    padding: 60px 40px 30px 30px;
+    background-position: 50% 25%;
+    height: 250px;
+    border-radius: 10px;
+}
+.hard-skills{
+    color: white;
+    margin-top: 5px;
+    text-align: left;
+}
+.links{
+    padding: 20px;
+    margin-top: 60px;
 }
