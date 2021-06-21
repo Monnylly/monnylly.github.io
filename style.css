@@ -104,8 +104,9 @@ ul{
 a {
     color: rgba(232, 236, 238, 0.877);
     text-align: center;
-    padding: 100px;
     font-size: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .header{
     background-image: url('tecnologia.jpg');
